@@ -12,7 +12,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'majutsushi/tagbar'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
-Plug 'nvim-telescope/telescope.nvim'
+"Plug 'nvim-telescope/telescope.nvim'
 
 " themes
 Plug 'arcticicestudio/nord-vim'
@@ -175,5 +175,5 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 "###############################################################################
 " Set colorscheme
 "###############################################################################
-colorscheme tokyobones
-
+set termguicolors
+colorscheme forestbones

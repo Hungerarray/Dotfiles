@@ -16,6 +16,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
 " themes
+Plug 'rktjmp/lush.nvim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'mcchrish/zenbones.nvim'
 
@@ -26,8 +27,6 @@ call plug#end()
 "###############################################################################
 " General Configuration Options
 "###############################################################################
-" Allow backspacing over indentation, line breaks, and insertion start
-set backspace=indent,eol,start
 set history=1000
 set showcmd
 set showmode
@@ -176,5 +175,6 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 "###############################################################################
 " Set colorscheme
 "###############################################################################
+set termguicolors
 colorscheme tokyobones
 
