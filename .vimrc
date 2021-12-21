@@ -176,4 +176,4 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " Set colorscheme
 "###############################################################################
 set termguicolors
-colorscheme forestbones
+colorscheme nordbones
