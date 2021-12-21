@@ -14,6 +14,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'godlygeek/tabular'
 
 " themes
 Plug 'rktjmp/lush.nvim'
